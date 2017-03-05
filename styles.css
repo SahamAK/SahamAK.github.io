@@ -23,7 +23,17 @@ header, article, aside, footer,section {
 }
 h1#bean-title {
   margin: 5px 10px 5px 10px;
+  font-style: italic;
 }
 #bean-images {
   margin-left: 10px;
+}
+.footer {
+  background: blue;
+  height: 50px;
+  margin: auto;
+  width: 500px;
+}
+.footer p{
+  text-align: center;
 }
