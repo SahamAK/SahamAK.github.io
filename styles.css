@@ -1,11 +1,29 @@
 
 
-* {
+*, *:before, *:after {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 	
 }
+
+html {
+  background-color: #99ff99;
+   }
 body {
-	background: blue;
+	font-family: "Georgia", serif;
+  padding: 0px 20px 10px; 
+  border-radius: 10px;
+  background-color: white;
+  margin: 30px auto;
+  max-width: 960px;
+}
+header, article, aside, footer,section {
+  border: 1px solid #111;
+}
+h1#bean-title {
+  margin: 5px 10px 5px 10px;
+}
+#bean-images {
+  margin-left: 10px;
 }
