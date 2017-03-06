@@ -18,22 +18,57 @@ body {
   margin: 30px auto;
   max-width: 960px;
 }
-header, article, aside, footer,section {
+/*header, article, aside, footer,section {
   border: 1px solid #111;
-}
+} */
 h1#bean-title {
   margin: 5px 10px 5px 10px;
   font-style: italic;
 }
 #bean-images {
-  margin-left: 10px;
-}
-.footer {
-  background: blue;
-  height: 50px;
+  width: 650px;
   margin: auto;
+}
+.round-corner {
+  border-radius: 5px;
+}
+body.contact {
+  padding: 0px;
+}
+.wrapper {
+  background-image: url(background-contact.jpg);
+  border-radius: 5px;
+}
+.contact-class {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 1em;
+  color: white;
+}
+.footer ,.footer-choice{
+  background: #d1e0e0;
+  height: 30px;
+  margin: auto;
+  width: 300px;
+  border-radius: 10px;
+}
+.footer-choice {
   width: 500px;
 }
-.footer p{
+.footer p, .footer-choice p{
+  padding-top: 3px; 
   text-align: center;
+}
+a:active {
+    color: red;
+}
+a:visited  {
+    color: navy ;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background: #ffff99;
+    font-family: helvetica;
+  }
 }
