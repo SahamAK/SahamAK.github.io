@@ -5,14 +5,16 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+<header class="center-margin">
+	<h1 id="bean-title">Beans are unique food</h1>
 
-	<h1>Beans are unique food</h1>
-
-	
-	<img src="beans_bags.jpg" alt="beans_bags">
-	<img src="beans.jpg" alt="BEANS" width="214" height="167">
-	<img src="bean-assort.jpg" alt="Bean_assortment" width="214" height="167">
-
+	<div id="bean-images">
+	<img src="beans_bags.jpg" alt="beans_bags" class="round-corner">
+	<img src="beans.jpg" alt="BEANS" width="214" height="167" class="round-corner">
+	<img src="bean-assort.jpg" alt="Bean_assortment" width="214" height="167" class="round-corner">
+  </div>
+</header>
+<article>
 	<div>
 		<p>	Beans are the mature forms of <em>legumes</em>. They are also considered a vegetable. Green peas, Green lima beans and string beans are not considered part of the beans subgroup. </p> 
 	</div>
@@ -34,12 +36,13 @@
 	<div>
 		<p> For detail on varieties of beans you may go to <a href="http://www.harvesttotable.com/2007/09/beans/"><strong>Beans Classifications</strong></a>.</p>
 		<p> I looked at the source cod for the above mentioned website. It has different sections, and frames,Java scripts. It is complicated but does make sense.</p>
-	</div>	
-
+	</div>
+</article>	
+<article>
 	<form name="your_bean" action="bean-choice.html" method="get">
 		<fieldset>
 
-			<div>
+			<div class="input-class">
 				<label>Full Name: </label>
 				<input type="text" name="fullname">
 			</div>
@@ -58,8 +61,11 @@
 		</fieldset>
 		<button type="submit">Select your bean</button>
 	</form>
-
-	<p> You may contact us:<a href="contact.html">Contact</a></p>
-	
+</article>
+<footer>
+	<div class="footer">
+		<p> You may contact us at: <a href="contact.html">Contact</a></p>
+</div>
+</footer>
 </body>
 </html>
